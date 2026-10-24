@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+xarray
+dask
+rasterio
+rioxarray
+pyproj
+shapely
+pystac
+pystac-client
+odc-stac
+lightgbm==4.7.0
+torch==2.14.1
+matplotlib

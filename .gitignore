@@ -1,0 +1,13 @@
+config.json
+s2_data/
+data/
+out/
+*.tif
+*.npz
+*.npy
+*.pt
+*.csv
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.DS_Store

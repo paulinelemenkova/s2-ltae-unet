@@ -1,0 +1,27 @@
+{
+  "aoi_bbox": ["lon_min", "lat_min", "lon_max", "lat_max"],
+  "test_bbox": ["lon_min", "lat_min", "lon_max", "lat_max"],
+  "fire_bbox": ["lon_min", "lat_min", "lon_max", "lat_max"],
+  "crs": "EPSG:<UTM code>",
+  "grid_bounds": ["x_min", "x_max", "y_min", "y_max"],
+  "period": ["YYYY-MM", "YYYY-MM"],
+  "test_months": ["YYYY-MM", "YYYY-MM"],
+  "perimeter": {
+    "url": "<WFS GetFeature URL returning GeoJSON burnt-area polygons>",
+    "id_field": "<property name>",
+    "id": "<polygon id>",
+    "stac_bbox": ["lon_min", "lat_min", "lon_max", "lat_max"]
+  },
+  "dnbr_pre": ["YYYY-MM-DDT00:00:00Z", "YYYY-MM-DDT23:59:59Z"],
+  "dnbr_post": ["YYYY-MM-DDT00:00:00Z", "YYYY-MM-DDT23:59:59Z"],
+  "dnbr_pre_month": "YYYY-MM",
+  "fire_window": ["YYYY-MM-DD", "YYYY-MM-DD"],
+  "burn_date": "YYYY-MM-DD",
+  "baseline_last_year": "YYYY",
+  "fit_from": "YYYY-MM",
+  "input_months": ["YYYY-MM", "YYYY-MM"],
+  "horizon": ["YYYY-MM", "YYYY-MM"],
+  "climate_point": ["lat", "lon"],
+  "climate_period": ["YYYY-MM-DD", "YYYY-MM-DD"],
+  "climate_reference": ["YYYY", "YYYY"]
+}
